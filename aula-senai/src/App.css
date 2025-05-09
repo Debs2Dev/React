@@ -1,0 +1,102 @@
+.App
+{
+  background: url('./background.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: f4f4f4;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.507);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: f4f4f4;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+img {
+  width: 300px;
+}
+
+h1
+{
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+h2
+{
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+input[type="text"]
+{
+  padding: 10px;
+  border: 1px solid #070707;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+input[type="text"]::placeholder {
+  color: #000000;
+}
+
+button
+{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+button:hover
+{
+  background-color: #0056b3;
+}
+
+hr
+{
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  width: 80%;
+}
+
+ol
+{
+  list-style-type: decimal;
+  padding-left: 20px;
+  width: 80%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ol li
+{
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+ol li:last-child
+{
+  border-bottom: none;
+}
